@@ -1,0 +1,143 @@
+body {
+  background-image: url("images/Background.jpg");
+  margin: 0px;
+  font-family: "voltage";
+  background-attachment: fixed;
+}
+.header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.headerFree {
+  width: 100%;
+  height: auto;
+}
+.sidenav {
+  text-decoration: none;
+  width: 200px;
+  height: auto;
+  position: fixed;
+  top: 30%;
+  left: 10%;
+}
+
+.sidenav a {
+  text-shadow: 2px 2px 4px #514c6f;
+  font-size: 3em;
+  display: block;
+  color: #282536;
+  text-decoration: none;
+  padding: 10px 12px 12px 16px;
+  background-image: url("images/homeButtonDormant.png");
+  background-repeat: no-repeat;
+  background-size: 200px auto;
+}
+
+.sidenav a:hover {
+  background-image: url("images/homeButtonHover.png");
+  color: #f158ff;
+}
+
+.sidenav a.active {
+  color: #ffbbf8;
+  background-image: url("images/homeButtonActive.png");
+}
+
+.chapBar {
+  color: #282536;
+  text-decoration: none;
+  font-size: 2em;
+  padding: 7px 12px 30px 55px;
+  margin-top: 0px;
+  display: block;
+  width: 240px;
+  height: auto;
+  position: fixed;
+  top: 65%;
+  left: 9.7%;
+  background-image: url("images/chapterBarOff.png");
+  background-repeat: no-repeat;
+  background-size: 200px auto;
+}
+
+.chapBar .text {
+  text-shadow: 2px 2px 4px #514c6f;
+  margin: 0px;
+}
+
+.chapSelect {
+  width: 200px;
+  position: fixed;
+  top: 71%;
+  left: 11.7%;
+}
+
+.chapSelect img {
+  width: 38px;
+  height: 38px;
+
+}
+.homePage {
+  width: 45%;
+  top: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+
+.extrasImg {
+  /*sets background for the captions*/
+  background-color: white;
+  border: 3px solid white;
+  box-shadow: 0px 0px 10px black;
+  /*spaces pictures out*/
+  margin-bottom: 100px;
+  /*sets width for the container not image*/
+  width: 50%;
+  height: auto;
+  /*centers the container*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.extrasImg img {
+  width: 100%;
+}
+
+.extrasCaption {
+  color: black;
+  padding: 0px 5px;
+}
+
+.aboutText {
+  width: 45%;
+  padding-top: 250px;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.aboutText h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.aboutText p {
+  text-align: center;
+  font-size: 2em;
+}
+
+@font-face {
+   font-family: trajan;
+   src:url(fonts/Trajan Pro Regular.ttf);
+}
+@font-face {
+   font-family: voltage;
+   src:url(fonts/Voltage-Regular.otf);
+}
